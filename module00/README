@@ -1,0 +1,21 @@
+Python recommended version: Python 3.7.X
+I have: Python 3.8.10
+that's why I will use Anaconda:
+
+Anaconda is a python and R distribution. It aims to provide everything you need (Python-wise) for data science "out of the box".
+
+It includes:
+
+The core Python language
+100+ Python "packages" (libraries)
+Spyder (IDE/editor - like PyCharm) and Jupyter
+conda, Anaconda's own package manager, used for updating Anaconda and packages
+Anaconda gives you the possibility to create a specific envirement.
+ie: chose a specific Python version..
+
+-I created a conda envirement called 42AI-$USER / 42AI-murphy, it contains:
+	-python 3.7 
+	-jupyter(notebooks) 
+	-pandas(python libary) 
+	-pycodestyle( a tool to check your Python code against some of the style conventions in PEP8)
+	-numpy (python library)

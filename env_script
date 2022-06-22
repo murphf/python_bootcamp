@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#bach script to activate / deactivate conda envirement
+#if cml argument == 1 => activate
+#else deactivate 
+
+if [ $# -ne 1 ]
+then
+	echo "NON VALID NUMBER OF ARGUMENT"
+	return
+elif [ $1 -eq 1 ]
+then
+	conda activate 42AI-$USER
+else
+	conda deactivate
+fi
