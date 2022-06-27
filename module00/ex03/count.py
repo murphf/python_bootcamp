@@ -16,6 +16,9 @@ def text_analyzer(str = None):
 	if (str.isdigit()):
 		print("Error: the argument is not a string")
 		quit()
+	if (str == ""):
+		print("No text to analyze")
+		quit()
 	up = 0
 	low = 0
 	punc = 0
@@ -35,6 +38,7 @@ def text_analyzer(str = None):
 - {} punctuation mark(s)
 - {} space(s)""".format(len(str), up, low, punc, sp))
 
+#so we can lunch count.py as a standalone program too
 if __name__ == "__main__":
 	l = len(sys.argv) - 1
 	if l <= 1:
